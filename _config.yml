@@ -6,7 +6,8 @@ description: "Baron's blog,use Jekyll and github pages."
 keywords: "Baron,Trail,blog,Jekyll,github,gh-pages"
 
 baseurl: "/"
-url: "http://www.jack003.com"
+url: "http://barondi.github.io"
+# url: "http://www.jack003.com"
 # url: "http://127.0.0.1:4000"
 
 # author
@@ -14,18 +15,30 @@ author:
   name: '邸佳松'
   first_name: 'Di'
   last_name: 'Baron'
-  email: 'me@jack003.com'
+  email: '15011077963@163.com'
   facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
+  github_username: 'barondi'
   head_img: 'static/img/landing/baron.jpg'
 
 # social link
 jingyu:
-  first_name: 'Yu'
-  last_name: 'Jing'
-  description: 'Painter.'
-  link: 'http://angular.jack003.com'
-  email: '805963294@qq.com'
+  first_name: 'Net'
+  last_name: 'Imooc'
+  description: 'FE Studying.'
+  link: 'http://www.imooc.com/'
+  email: '15011077963@163.com'
+jingyu2:
+  first_name: 'Net'
+  last_name: 'W3cplus'
+  description: 'FE Studying.'
+  link: 'http://www.w3cplus.com/'
+  email: '15011077963@163.com'
+jingyu3:
+  first_name: 'Net'
+  last_name: '51cto'
+  description: 'FE Studying.'
+  link: 'http://www.51cto.com/'
+  email: '15011077963@163.com'
 
 # landing page
 landing:
