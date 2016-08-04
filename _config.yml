@@ -11,13 +11,13 @@ url: "http://www.jack003.com"
 
 # author
 author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
+  name: '邸佳松'
+  first_name: 'Di'
+  last_name: 'Baron'
   email: 'me@jack003.com'
   facebook_username: 'jiakunnj'
   github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'
+  head_img: 'static/img/landing/baron.jpg'
 
 # social link
 jingyu:
