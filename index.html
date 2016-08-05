@@ -109,10 +109,18 @@ permalink: /
                         </li>
                         <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a>
                         </li>
-                        <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a>
+                        <li style="position: relative;">
+                            <a target="blank">
+                                <i class="glyphicon glyphicon-earphone"></i>
+                            </a>
+                            <div class="message-box">
+                                <span>15011077963</span>
+                                <div class="triangle-border tb-border"></div>
+                                <div class="triangle-border tb-background"></div>
+                            </div>
                         </li>
-                        <li><a href="{{ site.url}}/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
-                        </li>
+                        <!--<li><a href="{{ site.url}}/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
+                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -399,7 +407,7 @@ permalink: /
                     </ul>
                 </div>
             </div>
-            <div style="display:inline-block;width:32%;padding:0;margin:0;" class="col-sm-4 col-sm-offset-4">
+            <div style="display:inline-block;width:32%;padding:0 0 0 3%;margin:0;" class="col-sm-4 col-sm-offset-4">
                 <div class="team-member wow zoomIn">
                     <h4 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;"><span class="navy">{{ site.jingyu2.last_name }}</span> {{ site.jingyu2.first_name }}</h4>
                     <p>
@@ -493,6 +501,17 @@ permalink: /
 
     // Activate WOW.js plugin for animation on scrol
     new WOW().init();
+
+    var phoneStatus = false;
+    $(".glyphicon-earphone").on('click',function(){
+        if(phoneStatus == false){
+            $('.message-box').fadeIn(500);
+            phoneStatus = !phoneStatus;
+        }else{
+            $('.message-box').fadeOut(500);
+            phoneStatus = !phoneStatus;
+        }
+    })
 
 </script>
 
